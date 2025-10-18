@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+  min-width: 24rem;
+  margin: 4.8rem 0;
+
+  svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+.red {
+  background-color: var(--error);
+  color: var(--text-over-error);
+}
+
+.yellow {
+  background-color: var(--warning);
+  color: var(--text-over-warning);
+}
+
+.blue {
+  background-color: var(--info);
+  color: var(--text-over-info);
+}
